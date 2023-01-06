@@ -16,7 +16,7 @@ env:
 jobs:
   test:
     runs-on: macos-12
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
       - name: Checkout
@@ -24,7 +24,7 @@ jobs:
         timeout-minutes: 1
 
       - name: Setup Mint
-        timeout-minutes: 10
+        timeout-minutes: 15
         uses: irgaly/setup-mint@v1.1.1
 
       - name: Save Logs
