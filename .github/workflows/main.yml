@@ -24,8 +24,8 @@ jobs:
         timeout-minutes: 1
 
       - name: Setup Mint
-        timeout-minutes: 15
         uses: irgaly/setup-mint@v1.1.1
+        timeout-minutes: 15
 
       - name: Save Logs
         uses: actions/upload-artifact@v3
